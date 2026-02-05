@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil AMDANDA GANTINA BANGUN</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f4f6;
+            color: #111827;
+        }
+        header {
+            background: #1f2937;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            background: #111827;
+            padding: 15px;
+        }
+        nav a {
+            color: #f9fafb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .qr {
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer {
+            background: #1f2937;
+            text-align: center;
+            padding: 20px;
+            color: #f3f4f6;
+            margin-top: 40px;
+        }
+        .btn {
+            background: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Profil AMDANDA GANTINA BANGUN</h1>
+    <p>Website pribadi yang berisi informasi lengkap tentang saya</p>
+</header>
+
+<nav>
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container">
+
+    <section id="tentang" class="card">
+        <h2>Tentang Saya</h2>
+        <p>Halo, saya <b>AMDANDA GANTINA BANGUN</b>. Saya adalah seorang administrator jaringan dan juga aktif belajar berbagai konfigurasi server, Apache2, Nextcloud, jaringan MikroTik, pembuatan game HTML5, hingga template website modern menggunakan ChatGPT.</p>
+        <p>Saya pernah belajar bersama ChatGPT tentang:</p>
+        <ul>
+            <li>Konfigurasi Apache2</li>
+            <li>Konfigurasi Nextcloud di Debian</li>
+            <li>Pembuatan berbagai game (pesawat perang, penalti, downhill, Arkanoid)</li>
+            <li>Pembuatan template website modern</li>
+            <li>Pembuatan QR WhatsApp & integrasi pesan otomatis</li>
+            <li>DNS, jaringan, dan manajemen server</li>
+        </ul>
+    </section>
+
+    <section id="keahlian" class="card">
+        <h2>Keahlian Saya</h2>
+        <ul>
+            <li>Administrasi Jaringan (MikroTik & Debian)</li>
+            <li>Web Server Apache2</li>
+            <li>Manajemen Jaringan Perusahaan</li>
+            <li>Front-end HTML/CSS/JS</li>
+            <li>Membuat game sederhana berbasis Canvas</li>
+        </ul>
+    </section>
+
+    <section id="kontak" class="card">
+        <h2>Kontak Saya</h2>
+        <p>Email: <b>aliimranbangun1234@gmail.com</b></p>
+        <p>WhatsApp: <b>082370827351</b></p>
+
+        <a class="btn" href="https://api.whatsapp.com/send?phone=6282370827351&text=Halo%20saya%20ingin%20menghubungi%20Anda" target="_blank">Kirim Pesan WhatsApp</a>
+
+        <div class="qr">
+            <h3>Scan QR WhatsApp</h3>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://api.whatsapp.com/send?phone=6282370827351" alt="QR WhatsApp">
+        </div>
+
+    </section>
+
+</div>
+
+<div class="social" style="text-align:center; margin-top:20px;">
+  <h3>Sosial Media</h3>
+<style>
+    .tabs { display:flex; justify-content:center; margin-bottom:15px; gap:10px; }
+    .tab-btn {
+      padding:10px 18px;
+      border:none;
+      background:#0077b6;
+      color:white;
+      font-weight:bold;
+      border-radius:8px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+    .tab-btn:hover { background:#005f86; }
+    .tab-content { display:none; }
+    .tab-active { display:block; animation:fade 0.5s; }
+    @keyframes fade { from{opacity:0;} to{opacity:1;} }
+  </style>
+
+  <div class="tabs">
+    <button class="tab-btn" onclick="openTab('tiktok')">TikTok</button>
+    <button class="tab-btn" onclick="openTab('instagram')">Instagram</button>
+  </div>
+
+  <div id="tiktok" class="tab-content tab-active">
+    <h4>TikTok</h4>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.tiktok.com/@ndaa.4x?_r=1&_t=ZS-91SySMhIPod" style="border-radius:10px;">
+    <br>
+    <a href="https://www.tiktok.com/@ndaa.4x?_r=1&_t=ZS-91SySMhIPod" target="_blank" style="display:inline-block; margin-top:10px; font-weight:bold; text-decoration:none; background:#000; color:#fff; padding:10px 18px; border-radius:8px;">Buka TikTok</a>
+  </div>
+
+  <div id="instagram" class="tab-content">
+    <h4>Instagram</h4>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.instagram.com/ndaa4x?igsh=cnBnem1pcHp0NTR6" style="border-radius:10px;">
+    <br>
+    <a href="https://www.instagram.com/ndaa4x?igsh=cnBnem1pcHp0NTR6" target="_blank" style="display:inline-block; margin-top:10px; font-weight:bold; text-decoration:none; background:#d62976; color:#fff; padding:10px 18px; border-radius:8px;">Buka Instagram</a>
+  </div>
+
+  <script>
+    function openTab(tab) {
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('tab-active'));
+      document.getElementById(tab).classList.add('tab-active');
+    }
+  </script>
+</div>
+
+  <!-- Instagram QR -->
+  <div style="margin:10px;">
+    <h4 style="margin-bottom:8px;">Instagram</h4>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.instagram.com/ndaa4x?igsh=cnBnem1pcHp0NTR6" alt="QR Instagram" style="border-radius:10px;">
+    <br>
+    <a href="https://www.instagram.com/ndaa4x?igsh=cnBnem1pcHp0NTR6" target="_blank" style="display:inline-block; margin-top:10px; font-weight:bold; text-decoration:none; background:#d62976; color:#fff; padding:10px 18px; border-radius:8px;">Buka Instagram</a>
+  </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 AMDANDA GANTINA BANGUN - All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
